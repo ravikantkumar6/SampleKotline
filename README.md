@@ -1,13 +1,13 @@
 # Sample Kotline
 
-##Project setup
-###Create
+## Project setup
+### Create
   `File -> project -> kotline -> kotline/jvm`
-###Configuration
+### Configuration
 Set `src` folder as `source folder`.
-###First step to write code
+### First step to write code
 Create a `kotline file`
-#Types of Variables
+# Types of Variables
 |  Type | Size  |
 |---|---|
 | Double  | 64  |
