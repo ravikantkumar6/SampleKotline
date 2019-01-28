@@ -8,5 +8,9 @@ fun main(args: Array<String>){
     } else {
         max = b
     }
+    println("Maximum of a or b is " +max)
+
+    // As expression
+    max = if (a > b) a else b
     print("Maximum of a or b is " +max)
 }

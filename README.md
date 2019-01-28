@@ -16,3 +16,14 @@ Create a `kotline file`
 | Int  | 32  |
 | Short  |  16 | 
 | Byte  |  8 |
+
+# when
+### Syntax 
+>Syntax of when in kotlin similar to case in java
+ ``` ruby
+ when(condition){
+     key1 -> statement
+     key2 -> statement
+     else ->{statement}
+ }
+ ```
