@@ -35,4 +35,7 @@ Create a `kotline file`
  | For  | ``` for (item in itemSelectable){ println("$item");}```| 
  | |```for ((index, item) in itemSelectable.withIndex()) println("Item :: $item And Index :: $index"); ``` |
  | While  |``` while(condition) {statement increatment/decrement} ```  ```Same as java ``` | 
-  | Do While  | ```Same as java ``` |
+ | Do While  | ```Same as java ``` |
+ | break  | ```myLabel@ for(x in 1..10) {if(x == 5) { println("Break") break@myLabel  } ``` |
+ | continue  | ```myLabel@ for(x in 1..10) {if(x == 5) { println("Continue") continue@myLabel  } ```  |
+  

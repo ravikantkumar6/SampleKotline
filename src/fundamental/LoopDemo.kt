@@ -4,6 +4,7 @@ fun main(args: Array<String>){
     forLoopDemo();
     whileLoopDemo();
     doWhileLoopDemo();
+    breakAndContinueDemo();
 }
 
 fun forLoopDemo(){
@@ -31,4 +32,17 @@ fun doWhileLoopDemo(){
         println(x)
         x++
     }while(itemSelectable.size > x);
+}
+
+fun breakAndContinueDemo(){
+    println("***** Break And Continue Demo *****")
+    myLabel@ for(x in 1..10) {
+        if(x == 5) {
+            println("I am inside if block with value"+x+"\n-- hence it will close the operation")
+            break@myLabel;
+        } else {
+            println("I am inside else block with value"+x)
+            continue@myLabel;
+        }
+    }
 }
