@@ -1,3 +1,5 @@
+package fundamental
+
 fun main(args: Array<String>){
     val a:Int = 5
     val b:Int = 2

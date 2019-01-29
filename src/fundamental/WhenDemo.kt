@@ -1,3 +1,5 @@
+package fundamental
+
 fun main(args: Array<String>){
     val value : Int = 5;
     when (value){

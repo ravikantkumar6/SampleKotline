@@ -27,3 +27,11 @@ Create a `kotline file`
      else ->{statement}
  }
  ```
+ # Loop
+ >Syntax of ```For``` and ```while``` in ```kotlin``` similar to ```java```
+ 
+ |  Type | Syntax  |
+ |---|---|
+ | For  | ``` for (item in itemSelectable){ println("$item");}```| 
+ | |```for ((index, item) in itemSelectable.withIndex()) println("Item :: $item And Index :: $index"); ``` |
+ | While  |``` while(condition) {statement increatment/decrement} ``` | 
