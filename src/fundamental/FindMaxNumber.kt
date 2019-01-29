@@ -1,8 +1,8 @@
 package fundamental
 
-fun main(args: Array<String>){
-    val a:Int = 5
-    val b:Int = 2
+fun main(args: Array<String>) {
+    val a: Int = 5
+    val b: Int = 2
     var max: Int
 
     if (a > b) {
@@ -10,9 +10,9 @@ fun main(args: Array<String>){
     } else {
         max = b
     }
-    println("Maximum of a or b is " +max)
+    println("Maximum of a or b is " + max)
 
     // As expression
     max = if (a > b) a else b
-    print("Maximum of a or b is " +max)
+    print("Maximum of a or b is " + max)
 }
