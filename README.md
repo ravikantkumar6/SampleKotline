@@ -27,7 +27,7 @@ Create a `kotline file`
      else ->{statement}
  }
  ```
- # Loop
+ # Control Flow
  >Syntax of ```For``` and ```while``` in ```kotlin``` similar to ```java```
  
  |  Type | Syntax  |
