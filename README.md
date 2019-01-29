@@ -57,7 +57,7 @@ Create a `kotline file`
    ```
 
  ### Types of Class
-  - **Nested Class**
+  - [**Nested Class**](src/opps/classdemo/NestedClassDemo.kt)
   ```kotlin
     class Outer {
          class Nested {
@@ -69,7 +69,7 @@ Create a `kotline file`
            print(demo);
        }
    ```
-  - **Inner Class**
+  - [**Inner Class**](src/opps/classdemo/InnerClassDemo.kt)
   ```kotlin
     class Outer {
        private val welcomeMessage: String = "Welcome to nested class";
