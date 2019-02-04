@@ -96,3 +96,12 @@ Create a `kotline file`
         animal.food();
     }
   ```
+  
+  ##Constructor
+   Kotlin has two types of constructor - one is the [**`Primary constructor`**](src/opps/constructordemo/PrimaryConstructorDemo.kt) and the other is the [**`Secondary constructor`**](src/opps/constructordemo/SecondaryConstructorDemo.kt).
+
+- `Primary constructor` initializes the class.
+- `secondary constructor` helps to include some extra logic while initializing the same.
+- `Primary constructor` can be declared at class header level.
+- Kotlin allows to create **`one or more secondary constructors`** for your class.
+- All of secondary constructors should call the primary constructor directly or indirectly.
