@@ -83,7 +83,7 @@ Create a `kotline file`
     }
 ```
   - [**Anonymous Inner Class**](src/opps/classdemo/AnonymousClassDemo.kt)
-    ```kotlin
+```kotlin
     interface Animal {
         fun food()
     }
